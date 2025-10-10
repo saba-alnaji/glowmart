@@ -1,0 +1,39 @@
+:root{
+    --backgroundcolor:#f8f5f2 ;
+    --mainfont: Arial, Helvetica, sans-serif;
+    --maincolor:#724332
+}
+body{
+    height: 5000px;
+    background-color: var(--backgroundcolor);
+    font-family:var(--mainfont);
+ }
+
+.background-main{
+    background-color: var(--backgroundcolor);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: var(--maincolor);
+  border-bottom: 2px solid #362b20;
+}
+.icons svg {
+  color: var(--maincolor);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dropdown-menu .dropdown-item {
+    width: 250px;
+    color: #000;
+    transition: all 0.3s
+
+}
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:active {
+  background-color: #3b2a1a; /* بني */
+  color: #fff !important;    /* النص أبيض */
+}
+
+
