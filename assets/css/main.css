@@ -517,6 +517,10 @@ body {
   .summersale-content {
     margin: 0 auto;
     text-align: center;
+    
+  }
+  .summersale-content .summersaleh2{
+    font-size: 50px;
   }
 }
 
@@ -683,7 +687,7 @@ body {
 /* end collection*/
 /* start faq */
 .faq{
-  padding:100px;
+  padding:130px;
 }
 .left h2{
   color: #959494;
@@ -765,6 +769,178 @@ body {
 }
 
 /* end faq */
+/* start testimonials */
+.testimonials {
+  background-color: #6e3b2f;
+  color: #fff;
+  padding: 35px ;
+  position: relative;
+}
+
+.testimonials h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.testimonials .card{
+  border: none;
+  border-radius: 0;
+  width: 18rem;
+}
+
+
+.card .stars {
+  color: #6e3b2f;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.testimonials .card p {
+  font-size: 15px;
+  color: #6e6e6e;
+  line-height: 1.6;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.detalis h3 {
+  font-size: 16px;
+  color: #6e3b2f;
+  margin: 0;
+}
+
+.profile p {
+  font-size: 13px;
+  color: #999;
+  margin: 0;
+}
+
+.product-img {
+  width: 350px;
+  height: auto;
+  position: absolute;
+  top: -90px;
+  left: 35%;
+  
+}
+
+@media (max-width: 996px) {
+  .testimonials {
+    text-align: center;
+    padding: 30px ;
+  }
+
+  .testimonials .row {
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: center;
+  }
+
+  .testimonials h2 {
+    text-align: center ;
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .testimonials .card {
+    width: 90% ;
+    margin: 20px auto;
+  }
+
+  .profile {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .product-img {
+    position: relative ;
+    width: 240px ;
+    height: auto;
+    top: 0 ;
+    left: 0 ;
+  }
+}
+
+
+/* end testimonials */
+
+/* start reviews */
+
+.reviews .carousel-inner {
+  padding: 40px 0;
+}
+
+.reviews .card {
+  border: none;
+  background-color: var(--backgroundcolor);
+  box-shadow: 0 4px 90px rgba(88, 87, 87, 0.078);
+  border-radius: 0;
+  padding: 15px 10px;
+}
+
+
+
+.reviews .card img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.reviews h4 {
+  font-family: "Georgia", serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #724332;
+}
+
+.reviews .role {
+   color: #959494;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.reviews .stars {
+    color: #724332;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.reviews .text {
+  font-size: 0.95rem;
+  padding: 0 10px;
+}
+.reviews .carousel-indicators{
+    bottom: -25px;
+}
+.reviews .carousel-indicators [data-bs-target]{
+    background-color: #48362f;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.reviews .carousel-indicators .active{
+    background-color: #724332;
+  }
+@media screen and (max-width:992px) {
+  .reviews h4 {
+  font-family: "Georgia", serif;
+  font-size: .9rem;
+  font-weight: 200;
+  color: #724332;
+}
+}
+/* end reviews */
 
 /* start footer */
 .footer {
