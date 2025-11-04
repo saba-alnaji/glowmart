@@ -20,7 +20,7 @@
 <body>
   <nav id="navbar" class="navbar navbar-expand-lg navbar-text py-5  position-absolute w-100 z-1 ">
     <div class="container ">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./index.html">
         <img src="./assets/img/logo/Glowmart-Logo.webp" />
       </a>
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
@@ -40,7 +40,7 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav mb-0 mb-lg-2 gap-4 text-dark ">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
@@ -69,21 +69,46 @@
 
         </ul>
       </div>
-      <div class="icons d-flex gap-2">
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 640 640">
+
+      <div class="icons d-flex gap-2 ">
+        <a href="./login.html">
+          <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 640 640">
             <path fill="#724332"
               d="M470.5 463.6C451.4 416.9 405.5 384 352 384L288 384C234.5 384 188.6 416.9 169.5 463.6C133.9 426.3 112 375.7 112 320C112 205.1 205.1 112 320 112C434.9 112 528 205.1 528 320C528 375.7 506.1 426.2 470.5 463.6zM430.4 496.3C398.4 516.4 360.6 528 320 528C279.4 528 241.6 516.4 209.5 496.3C216.8 459.6 249.2 432 288 432L352 432C390.8 432 423.2 459.6 430.5 496.3zM320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 461.4 178.6 576 320 576zM320 304C297.9 304 280 286.1 280 264C280 241.9 297.9 224 320 224C342.1 224 360 241.9 360 264C360 286.1 342.1 304 320 304zM232 264C232 312.6 271.4 352 320 352C368.6 352 408 312.6 408 264C408 215.4 368.6 176 320 176C271.4 176 232 215.4 232 264z" />
-          </svg></a>
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" height="32" width="32" viewBox="0 0 24 24"
-            stroke-width="1.5" stroke="currentColor" class="size-6">
+          </svg>
+        </a>
+
+        <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" height="32" width="32" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="#724332">
             <path stroke-linecap="round" stroke-linejoin="round"
               d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-          </svg></a>
-
+          </svg>
+        </a>
       </div>
-
     </div>
   </nav>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body text-center d-flex flex-column align-items-center justify-content-center">
+      <h2>Your cart is empty</h2>
+      <a href="./product.html" class="btn btn-shop mt-4 text-white">
+        Shop Now
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right">
+          <path d="M7 7h10v10" />
+          <path d="M7 17 17 7" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+
 
 
   <main>
@@ -660,19 +685,20 @@
     <section class="newsletter text-center">
       <div class="container ">
         <h2 class="mb-4">Subscribe<span class="fst-italic fw-bold"> Our Newsletter</span></h2>
-        <p class="mb-4"> Be the first to know about new arrivals, limited deals, and fresh drops – straight to your inbox. No spam,
+        <p class="mb-4"> Be the first to know about new arrivals, limited deals, and fresh drops – straight to your
+          inbox. No spam,
           just heat.
         </p>
         <div class="search">
           <form class="d-flex align-items-center">
             <input type="text" placeholder="Your Email" />
             <button type="submit" class=" d-flex align-items-center ">
-              Subscribe <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"
-                  stroke-linejoin="round" class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right">
-                  <path d="M7 7h10v10" />
-                  <path d="M7 17 17 7" />
-                </svg>
+              Subscribe <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right">
+                <path d="M7 7h10v10" />
+                <path d="M7 17 17 7" />
+              </svg>
             </button>
           </form>
 

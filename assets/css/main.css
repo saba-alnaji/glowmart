@@ -4,7 +4,22 @@
   --maincolor: #724332;
   --secandfont: Arial, Helvetica, sans-serif
 }
-
+.offcanvas-body h2{
+  color:#724332;
+}
+.offcanvas-body .btn-shop {
+  background-color: var(--maincolor);
+  border: none;
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 26px;
+  padding: 20px 35px;
+  transition: 0.3s;
+}
+.offcanvas-body .btn-shop:hover {
+  background-color: #40241d;
+  transform: scale(0.9);
+}
 body {
   background-color: var(--backgroundcolor);
   font-family: var(--mainfont);
@@ -257,7 +272,7 @@ body {
   }
 }
 
-
+/* end nav */
 /* Hero Section */
 
 .hero {
