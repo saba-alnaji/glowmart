@@ -471,6 +471,74 @@ padding: 100px;
     padding: 9px 13px;
   }
 }
+/* تحسين التصميم للشاشات الصغيرة جداً */
+@media (max-width: 575px) {
+
+  .products {
+    padding: 60px 20px;
+  }
+
+  #productTabs .nav-link {
+    font-size: 12px;
+    padding: 8px 14px;
+    margin-bottom: 6px;
+  }
+
+  #productTabs .nav-item {
+    margin: 3px;
+  }
+
+  .products .card {
+    margin-bottom: 15px;
+  }
+
+  .products .card-img-top {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .products .card-body {
+    padding: 10px 0;
+  }
+
+  .products .card-title {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .products .card h6 {
+    font-size: 15px;
+  }
+
+  .products .product-price span {
+    font-size: 14px;
+  }
+}
+
+/* تحسين إضافي لشاشات أصغر من 400px */
+@media (max-width: 450px) {
+  #productTabs .nav-link {
+    font-size: 11px;
+    padding: 7px 10px;
+  }
+
+  .products .card-img-top {
+    width: 75%;
+  }
+
+  .products .card-title {
+    font-size: 11px;
+  }
+
+  .products .card h6 {
+    font-size: 14px;
+  }
+
+  .products .product-price span {
+    font-size: 13px;
+  }
+}
+
 /* end product */
 
 
