@@ -273,140 +273,65 @@ body {
 }
 
 /* end nav */
-/* faq */
-.faq-hero {
+/* start contact */
+.contact-hero {
     background-color: #e9d4c2;
     padding: 70px 0 180px;
     margin-top: -20px;
 }
 
-.faq-hero h1 {
+.contact-hero h1 {
     font-family: var(--mainfont);
     font-size: 4rem;
     color: #724332;
     font-weight: 600;
 }
 
-.faq {
-  background-color: var(--backgroundcolor);
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  position: relative;
-  top: -120px;
-  padding: 70px 0;
-  font-family: "Playfair Display", serif;
+.contact{
+    background-color: var(--backgroundcolor);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    position: relative;
+    top: -135px;
+        font-family: var(--mainfont);
+
 }
 
-.faq h6 {
-  color: #b9b5af;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 8px;
+.contact img{
+    max-width:350px;
 }
-
-.faq h2 {
-  font-size: 32px;
-  font-weight: 400;
-  margin-bottom: 40px;
+.detalis{
+    max-width:350px;
 }
-
-.accordion-item {
-  background-color: transparent;
+.btn-brown {
+    color:#fff;
+    background-color: var(--maincolor);
   border: none;
-  border-bottom: 1px solid #e8d3c1;
   border-radius: 0;
+  font-weight: 600;
+  font-size:15px;
+  padding: 20px 35px;
+  transition: 0.3s;
+}
+.btn-brown:hover {
+    background-color: #40241d;
+  transform: scale(0.9);
 }
 
-.accordion-button {
-  background-color: transparent;
-  box-shadow: none !important;
-  font-size: 15px;
-  font-weight: 500;
-  color: #2e2e2e;
-  padding: 10px 0;
+.form-control:focus, .form-control:active {
+    box-shadow: none;
+    border-color: #724332;
 }
 
-.accordion-button:focus {
-  box-shadow: none;
+.bg-light {
+    background-color: #f4e8dd !important;
 }
 
-.accordion-button:not(.collapsed) {
-  color: #6e3b2f;
-  background-color: transparent;
+.contact .form-control::placeholder{
+    color: #787575;
 }
 
-.accordion-body {
-  font-family: "Poppins", sans-serif;
-  font-size: 13px;
-  padding: 0 0 10px 0;
-  line-height: 1.6;
-}
-
-@media (max-width: 992px) {
-  .faq {
-    padding: 60px 0;
-  }
-
-  .faq h2 {
-    font-size: 28px;
-    margin-bottom: 35px;
-  }
-
-  .accordion-button {
-    font-size: 14px;
-  }
-
-  .accordion-body {
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 768px) {
-  .faq {
-    padding: 50px 0;
-  }
-
-  .faq h2 {
-    font-size: 26px;
-  }
-
-  .faq h6 {
-    font-size: 12px;
-  }
-
-  .col-md-6 {
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 575px) {
-  .faq {
-    padding: 40px 0;
-    border-top-left-radius: 70px;
-    border-top-right-radius: 70px;
-  }
-
-  .faq h2 {
-    font-size: 22px;
-    margin-bottom: 25px;
-  }
-
-  .accordion-button {
-    font-size: 13px;
-  }
-
-  .accordion-body {
-    font-size: 12px;
-  }
-
-  .accordion-item {
-    border-bottom: 1px solid #e0cbb8;
-  }
-}
-
-
-/* faq */
+/* end contact */
 /* start summersale */
 .summersale {
   background: url('./../img/back/BG-Summersale.png');
