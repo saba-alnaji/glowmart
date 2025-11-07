@@ -321,7 +321,7 @@ body {
   width: 260px; 
   height:390px; 
   overflow: hidden;
-  right: -70px;
+  right: -50px;
 }
 
 .bg-rectangle {
@@ -367,8 +367,29 @@ body {
   transform: scale(0.9);
 }
 
+
+@media (max-width: 1024px) {
+  .team {
+    padding: 80px 0;
+    top: -100px;
+  }
+
+  .team h3 {
+    font-size: 45px;
+  }
+
+  .image-box {
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 768px) {
- 
+
+  .team {
+    padding: 70px 0;
+  }
+
   .team h3 {
     font-size: 35px;
   }
@@ -382,13 +403,14 @@ body {
     width: 100%;
     max-width: 320px;
     text-align: center;
+    margin: 0 auto 50px;
   }
 
   .image-box {
     width: 230px;
     height: 300px;
-    margin: 0 auto; 
-
+    margin: 0 auto;
+    right: 0;
   }
 
   .bg-rectangle {
@@ -397,28 +419,47 @@ body {
   }
 
   .image-box img {
-    top:1px;
+    top: 1px;
     width: 85%;
     height: 85%;
   }
 
-  
+  .team-member h4 {
+    font-size: 1rem;
+  }
+
+  .team-member p {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 575px) {
- 
+
+  .team {
+    padding: 60px 0;
+    top: -70px;
+  }
+
+  .team h2 {
+    font-size: 14px;
+    letter-spacing: 7px;
+  }
+
   .team h3 {
     font-size: 28px;
+    margin-bottom: 40px;
   }
 
   .team-member {
     max-width: 280px;
-    margin: 0 auto 40px auto; 
+    text-align: center;
+    margin: 0 auto 40px auto;
   }
 
   .image-box {
     width: 200px;
     height: 270px;
+    margin: 0 auto;
   }
 
   .bg-rectangle {
@@ -433,13 +474,51 @@ body {
   }
 
   .team-member h4 {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .team-member p {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .team {
+    padding: 50px 0;
+    top: -50px;
   }
 
+  .team h3 {
+    font-size: 24px;
+  }
+
+  .team-member {
+    max-width: 260px;
+  }
+
+  .image-box {
+    width: 180px;
+    height: 240px;
+  }
+
+  .bg-rectangle {
+    width: 85%;
+    height: 85%;
+  }
+
+  .image-box img {
+    width: 85%;
+    height: 85%;
+  }
+
+  .team-member h4 {
+    font-size: 0.9rem;
+  }
+
+  .team-member p {
+    font-size: 0.75rem;
+  }
 }
 
 /* end team */
