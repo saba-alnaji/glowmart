@@ -413,32 +413,6 @@ body {
   background-color: var(--backgroundcolor);
 padding: 100px;
 }
-
-.products a {
-  text-decoration: none;
-  color: #222222;
-}
-
-
-.products .card {
-  background-color: var(--backgroundcolor);
-  border: none;
-  box-shadow: none;
-}
-
-.products.card-title {
-  color: #999;
-  letter-spacing: 2px;
-  font-size: 13px;
-  margin-bottom: 8px;
-}
-
-.products .card h6 {
-  font-family: "Playfair Display", serif;
-  font-size: 17px;
-  font-weight: 400;
-}
-
 #productTabs .nav-item {
   margin: 0 0.2rem;
 }
@@ -463,6 +437,30 @@ padding: 100px;
   outline: none;
 }
 
+.products a {
+  text-decoration: none;
+  color: #222222;
+}
+
+
+.products .card {
+  background-color: var(--backgroundcolor);
+  border: none;
+  box-shadow: none;
+}
+
+.products .card-title {
+  color: #999;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.products .card h6 {
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+  font-weight: 400;
+}
 
 @media screen and (max-width: 767px) {
   .productst .card-img-top {
