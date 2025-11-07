@@ -401,6 +401,156 @@ body {
 
 
 
+/* start team */
+
+.team {
+  padding: 100px 0;
+}
+
+.team h2 {
+  color: #959494;
+  letter-spacing: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.team h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 55px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.image-box {
+  position: relative;
+  width: 260px; 
+  height:390px; 
+  overflow: hidden;
+  
+}
+
+.bg-rectangle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height:90%;
+  background-color:#e8d3c1;
+}
+
+.image-box img {
+  position: relative;
+  top: 40px;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+
+}
+.team-member h4 {
+  font-family: "Georgia", serif;
+  font-size: 1.1rem;
+}
+
+.team-member p {
+  font-size: 0.9rem;
+  color: #777;
+  font-family: "Georgia", serif;
+}
+
+.team .explore-btn{
+  background-color: var(--maincolor);
+  border: none;
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 26px;
+  padding: 10px 30px;
+  transition: 0.3s;
+}
+
+.team .explore-btn:hover {
+  background-color: #40241d;
+  transform: scale(0.9);
+}
+
+@media (max-width: 768px) {
+ 
+  .team h3 {
+    font-size: 35px;
+  }
+
+  .team .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-member {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+  }
+
+  .image-box {
+    width: 230px;
+    height: 300px;
+    margin: 0 auto; 
+
+  }
+
+  .bg-rectangle {
+    width: 75%;
+    height: 85%;
+  }
+
+  .image-box img {
+    top:1px;
+    width: 85%;
+    height: 85%;
+  }
+
+  
+}
+
+@media (max-width: 575px) {
+ 
+  .team h3 {
+    font-size: 28px;
+  }
+
+  .team-member {
+    max-width: 280px;
+    margin: 0 auto 40px auto; 
+  }
+
+  .image-box {
+    width: 200px;
+    height: 270px;
+  }
+
+  .bg-rectangle {
+    width: 80%;
+    height: 85%;
+  }
+
+  .image-box img {
+    width: 85%;
+    height: 85%;
+    top: 1px;
+  }
+
+  .team-member h4 {
+    font-size: 1rem;
+  }
+
+  .team-member p {
+    font-size: 0.85rem;
+  }
+
+}
+
+/* end team */
+
 /* start testimonials */
 .testimonials {
   background-color: #6e3b2f;
