@@ -609,11 +609,11 @@ body {
 }
 
 .product-img {
-  width: 350px;
+  width: 230px;
   height: auto;
   position: absolute;
   top: -90px;
-  left: 35%;
+  left: 40%;
   
 }
 

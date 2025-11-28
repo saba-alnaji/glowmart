@@ -331,7 +331,7 @@ body {
   color: #724332;
   font-weight: 600;
 }
-@media (max-width: 996px) {
+/* @media (max-width: 996px) {
   .articles img {
     max-width: 80%;
     margin-bottom: 20px;
@@ -363,7 +363,44 @@ body {
   .read-more {
     font-size: 0.9rem;
   }
+} */
+
+
+
+@media screen and (max-width:740px) {
+
+  .articles-section {
+    padding: 20px 20px ; 
+   
+  }
+
+  .article-img img {
+    width: 100%;
+    height: auto;        
+    max-width: 350px;
+    margin-top: 30px;
+  }
+
+  .article {
+    margin: 0;
+  }
+
+  .article h3 {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  .article h4 {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 8px;
+  }
+  
+  
 }
+
+
+
 
 /* end articles */
 /* beauty-topics */
@@ -377,6 +414,22 @@ body {
 }
 .beauty-topics .article h4 {
   font-size: 1.1rem;
+}
+@media screen and (max-width:740px) {
+
+  /* النص بالنص */
+  .beauty-topics .article {
+    text-align: center ;
+   
+  }
+
+  .beauty-topics .section-title {
+    text-align: center;
+    margin-bottom: -9px;
+    font-size: 2rem;
+  }
+
+  
 }
 
 
